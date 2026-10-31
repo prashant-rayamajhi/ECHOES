@@ -25,9 +25,14 @@
     "export_sha256": "2575ee2983477918574bcb66311ab8c7af04a2554d59545d35963a181eb869b7"
   },
   {
+    "path": "Source/ECHO/Public/Enemy/AI/EnemyPlayerHistory.h",
+    "source_sha256": "49c0b9e4b60fc9a803c465a6c3061bded0fbb7fcbae4699625514b7dd11b2fb0",
+    "export_sha256": "49c0b9e4b60fc9a803c465a6c3061bded0fbb7fcbae4699625514b7dd11b2fb0"
+  },
+  {
     "path": "Source/ECHO/Public/Enemy/AI/EnemyTargeting.h",
-    "source_sha256": "e8948faaf7cffbbac6e7d755aec5815ea3affc8a112b73a8d5f58f38923982d8",
-    "export_sha256": "9716aba67831a466cdacd6e1fccc4dc17098ce85ca8fdbc910f2ca28ad07c014"
+    "source_sha256": "527b63062319f699c7c910b5aee9c50e5607481b301bbd76d6c6023d1d6ce7de",
+    "export_sha256": "2179cce36a5155a6f622cc3f618b8e952d99ef5a81c6e51fa85bde8a1cf92c99"
   },
   {
     "path": "Source/ECHO/Public/Enemy/AI/MinionUpdateCombat.h",
@@ -76,8 +81,8 @@
   },
   {
     "path": "Source/ECHO/Public/Enemy/Animation/EnemyGroundHit.h",
-    "source_sha256": "e149ba553d778a06aad070461bbda6b67d7fee5553c8cb5b49b75edec126c2e4",
-    "export_sha256": "e149ba553d778a06aad070461bbda6b67d7fee5553c8cb5b49b75edec126c2e4"
+    "source_sha256": "e9ea6097ca2155137fae3b9f922de5ddfb9d36c753735fbe7d1e09e771f2f67c",
+    "export_sha256": "e9ea6097ca2155137fae3b9f922de5ddfb9d36c753735fbe7d1e09e771f2f67c"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Animation/EnemySoundNotify.h",
@@ -116,13 +121,13 @@
   },
   {
     "path": "Source/ECHO/Public/Enemy/Boss/BossEnemyCharacter.h",
-    "source_sha256": "705f3b3874829e68a18261845f2d89ba0cf7b7e849c439781c25d20947fddd63",
-    "export_sha256": "2ea423160a6222ecb312f8195ea9a96ec846fe873cedd078443c56ed8980c4f5"
+    "source_sha256": "c49487a01deb2710ecca3eaf995dd5a93e12f375d35049b9d6c1f399b4b8dfe4",
+    "export_sha256": "cacc2a36908d455168fc16e09c5a7f02018580a163729f039ea762cec482cb9e"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Boss/BossObservation.h",
-    "source_sha256": "a2d8788bc5d8781ee9c433e85b61696a3eea7d054f414412443714a78404b5f0",
-    "export_sha256": "6979d0d93bc29f0e5c5f73b99333fa99b0203dc62a0a3e5c302571b3b2776ba2"
+    "source_sha256": "9c0badda78392436895178dbb12ee40dcc7a1afbac1aa16b043019b763ab5aff",
+    "export_sha256": "1b447177516e84bf0d3c09e39089cbb8dc58516fb37c722e47965be17bf623f4"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Boss/BossPosture.h",
@@ -131,8 +136,8 @@
   },
   {
     "path": "Source/ECHO/Public/Enemy/Boss/BossShadow.h",
-    "source_sha256": "0be959decd4fa9f5ad4c8eb7d665b973f8d6dfed67a0f5fb1b7d283b1e1e4d8c",
-    "export_sha256": "58ea5274147776d381bd6c9e4006a678c3e6387f71d58375d4eaf480bdad583b"
+    "source_sha256": "b24427b2cb59b9cee8ca6ad3fd7c76dd1ebb2728e07bf11380a618bfc4de1814",
+    "export_sha256": "db5ea79dfb7754e5e094a6c1189693a17f094b004824a624b0b373e3424c3fbf"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Boss/BossShadowSummon.h",
@@ -181,18 +186,18 @@
   },
   {
     "path": "Source/ECHO/Public/Enemy/Minion/MinionCombatDirector.h",
-    "source_sha256": "a08d93db45920a20b54f42fe69e3e5b9c90ff9a71c479bd49625887a378cea12",
-    "export_sha256": "7966d909a078e150a5650c01704fa8194ff9d718779842b6f5ebbbaaf38f5586"
+    "source_sha256": "21e66cbd56a5e96b33b57a0b6953a9f1caeb1a2cab548f9bb4ed926c154ec46e",
+    "export_sha256": "acd1fe4b0bbc5afc4592628ff52ba4e2f1a200a1cb590743c2e5e37a115daf23"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Minion/MinionEnemyCharacter.h",
-    "source_sha256": "10be22aee5fd3abcd3ff66e760eb4a32989e352830c90719120cd15e73edb345",
-    "export_sha256": "0bc3b53b0b7df0a35bb5668bf426d761c647e248b10dec0dc2ecc033554bb11e"
+    "source_sha256": "2bd96b40567af22bb7023a8aa7d00ce22fa3b655dd85420498050a13cc6edf44",
+    "export_sha256": "2093786f7554537f09e366318f46f6ffaaa9f9f316a1651441c9be10fc8d79fd"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Minion/MinionFormation.h",
-    "source_sha256": "5053c633a2d9a93896d48d3fcd160c8438d53060504a725a36951715d36c344c",
-    "export_sha256": "ef79dbc717556d985e5bd87365cfe1271b4c7b6770a4afdf0362e8ba04e04340"
+    "source_sha256": "3e75716e57ee75d83d81e3b7df7b492973ed5d2a1d2ebf30c3b4f02d9aa18f9f",
+    "export_sha256": "9d55356035ad08e43f53cfdc23f99cffa64b1012b70732ad0936cfdae40ac88e"
   },
   {
     "path": "Source/ECHO/Public/Enemy/Minion/MinionParryResponse.h",
@@ -245,9 +250,14 @@
     "export_sha256": "3672b83e838a60c672797f833f9943e9005bd2bfd7a77281296cdccc779c4cb6"
   },
   {
+    "path": "Source/ECHO/Private/Enemy/AI/EnemyPlayerHistory.cpp",
+    "source_sha256": "8c78080eccff95ed37c95c601cab49e54b778fbd81b2b3769edd6842915220df",
+    "export_sha256": "8c78080eccff95ed37c95c601cab49e54b778fbd81b2b3769edd6842915220df"
+  },
+  {
     "path": "Source/ECHO/Private/Enemy/AI/EnemyTargeting.cpp",
-    "source_sha256": "19e741ff105248b378f48eecee957dba05016e1071e4b2e979e5c6cc7b09ebfc",
-    "export_sha256": "d6e0a00537cb7d95659806329d5a4aa36170600a0b9b49318d1c30e5b08992f4"
+    "source_sha256": "182f91eae42994b926cfdb3148799719cd88c1d2d1fcd57c112b0ef6f7fe7832",
+    "export_sha256": "52913b2341db3f6b7a23ce8ba3b93d304d3e98c0cbccbb488e73e0d0fafd92d0"
   },
   {
     "path": "Source/ECHO/Private/Enemy/AI/MinionUpdateCombat.cpp",
@@ -296,8 +306,8 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Animation/EnemyGroundHit.cpp",
-    "source_sha256": "c597d862437ce1f07bb9c1f4577a736637eff287cc0a0d283b92974f22e72f98",
-    "export_sha256": "c597d862437ce1f07bb9c1f4577a736637eff287cc0a0d283b92974f22e72f98"
+    "source_sha256": "034d7f7fd6159c2172b43d3b88b6b756fd171841fd9d9e2fb22d057a9ca73956",
+    "export_sha256": "034d7f7fd6159c2172b43d3b88b6b756fd171841fd9d9e2fb22d057a9ca73956"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Animation/EnemySoundNotify.cpp",
@@ -331,13 +341,13 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Boss/BossEnemyCharacter.cpp",
-    "source_sha256": "953ead279c98b102c6428ba764f8dbf6302c101deaf8d83e3372d43d5cc24d4c",
-    "export_sha256": "9d781f274df25e20f7608d6e2e69b3e14d66300a8d39f95c73bac32585e1acc5"
+    "source_sha256": "d2c81eb4806b43b302ec5f6a26f047b4db8a8e7e759dfc4490297767512fa773",
+    "export_sha256": "97690821c44adea68b7b945a41fbae168a0e18e42d7a1ad040eb04139e3dcae1"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Boss/BossObservation.cpp",
-    "source_sha256": "8b9126ef6c9731ae113fc621b5bc2fdbcd1e62ca5d4e3b86bd37dabaa916cf68",
-    "export_sha256": "c937a1031597592716b60dab2272b6e097c2defb7cb199b1fc2734642335f7f7"
+    "source_sha256": "122c3287f11bcf5957b893508227c2845b29f46edc933a846c5ca47f2fcb624c",
+    "export_sha256": "80aed48fca56cadba5406578cfee7125c50925f417c6a72028f85607eecaab8d"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Boss/BossPosture.cpp",
@@ -346,8 +356,8 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Boss/BossShadow.cpp",
-    "source_sha256": "d7962816875fc3a0892531e1e1754a7333bf48be10b29d83938731c398e34e53",
-    "export_sha256": "4311105e6a44bc742d6bd27b6f643dfbe5fd669ea2851f135c8e831108386eda"
+    "source_sha256": "034c5cf5bac6c11f295460614e741eb6a083d893b5c68a724f3b2e3e70413237",
+    "export_sha256": "aee4df3fd53c23fd807456c08eb1b50c15ec493ac3cc30606730da3e81b7f2ea"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Boss/BossShadowSummon.cpp",
@@ -361,8 +371,8 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Combat/Combat.cpp",
-    "source_sha256": "c026afbda7bb7a9facfa457cce45c67f792b374d22695049ed9da2a837525b51",
-    "export_sha256": "f67f7be8fe1a47dd89b00a4906e2e8414c17b8f6f584591a2cd30c508b90477f"
+    "source_sha256": "6aff72f5a50ed626cfd7726cf548b5ac59d3d1fc2d80efc4cd8c85d4368777c9",
+    "export_sha256": "eb4b9d38b463dd37f99ab81bce32c48dd3687547b15179ddb2fc618071743047"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Combat/Defense.cpp",
@@ -381,8 +391,8 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Core/EnemyCharacterBase.cpp",
-    "source_sha256": "241fdb4274fd3c668bb78a681b36b90412ae0136bbdc7a5bb3bbac061ae1e7c5",
-    "export_sha256": "b4e01a99ab08dcb7ca4c0c7a1597304e97d27cb4655d7133e618f97bca3fc774"
+    "source_sha256": "4bb300d7d8699bfced20c37bb2c526d76a5aa280ae798c75a0031c54edd8cbfe",
+    "export_sha256": "4b0b78d301cdbdaee632d3eadf7d2011d19242df40c99c9d0706413836f13c07"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Core/EnemyTraversal.cpp",
@@ -391,18 +401,18 @@
   },
   {
     "path": "Source/ECHO/Private/Enemy/Minion/MinionCombatDirector.cpp",
-    "source_sha256": "ea23ad6bd051a2716b3b7e54ba0ee4306071d7e2322cfc7614b9131204758cc4",
-    "export_sha256": "695c8cc2f8d7574f40e90fc2bafb672948570e609f277ecefe74deddc4f743a8"
+    "source_sha256": "a84fce2819903ae11768de243faf122528220bb457ffc5de7cac05ffde4ecf8c",
+    "export_sha256": "05c117dbb723a21b19c449b7f787b7307e45f0c2c0cd128e6baecc245d5dca20"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Minion/MinionEnemyCharacter.cpp",
-    "source_sha256": "7f91dc5434e1ff13c6ee8e472c760f395166b644b3fdffd93f952567cd886223",
-    "export_sha256": "478fbe7f8014038519255ab9bc09cb321ca14b0cb8bed5cdea15f50ad737a946"
+    "source_sha256": "4e11cc71400f714dec868be02c9a96117f120248e86dc05d6672fe38c9880174",
+    "export_sha256": "f3ae201f6b06ef32c1ccab0e8b45c1533413e72cf117d1a232dd2271267941ff"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Minion/MinionFormation.cpp",
-    "source_sha256": "ff3a09d5e96dc618e55f63872bc78d6a6dddb994b058aa5f1c49ec7d0885488f",
-    "export_sha256": "60060aae1629f79c45f773071b3c4132d81a25f49552b00afe51a82e198c1b63"
+    "source_sha256": "43ab30082ff81fae2ba4456a028ff2574a2b76cdfdf5719d3cca4ddda6984999",
+    "export_sha256": "7163b792f3e001a0c4f7bff1fcf2b3fc5b3ca7ef93aee87635eb2415cac7bae7"
   },
   {
     "path": "Source/ECHO/Private/Enemy/Minion/MinionParryResponse.cpp",

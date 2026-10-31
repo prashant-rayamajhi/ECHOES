@@ -27,7 +27,6 @@
 #include "NavigationSystem.h"
 #include "Enemy/EnemyManager/EnemyManager.h"
 
-#include "Player/CombatComponent.h"
 
 
 //判定に使う幅や待ち時間。
@@ -191,6 +190,12 @@ bool AEnemyCharacterBase::ApplyPerfectDodge(AActor* _target)
 	                                                     1.f));
 	m_nextActionId = NAME_None;
 	m_combat->EndLift();
+
+    //回避に成功した相手へ、演出用の通知を一度だけ送る。
+    if(_target->GetClass()->ImplementsInterface(UEBDefenseFeedback::StaticClass()))
+    {
+        IEBDefenseFeedback::Execute_AttackDefended(_target, this, EDefenseResult::PerfectDodge);
+    }
 	return true;
 }
 
@@ -410,13 +415,7 @@ float AEnemyCharacterBase::TakeDamage(float _damage, const FDamageEvent& _damage
 	m_abilitySystemComponent->ApplyHealthDelta(-accepted, _instigator ? _instigator->GetPawn() : _causer, _causer);
 	m_defense->PublishResult(attacker, result);
 
-	if (applied > 0.f && IsValid(attacker))
-	{
-		if (auto* combat = attacker->FindComponentByClass<UCombatComponent>())
-		{
-			if (combat->IsPlayingAttackMontage()) combat->OnHitEnemy.Broadcast(applied);
-		}
-	}
+	//エネルギー加算は攻撃側で行う。敵から重ねて通知しない。
 
 	return applied;
 }
