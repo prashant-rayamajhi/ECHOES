@@ -1,9 +1,8 @@
 # 公開していない接続先
 
-このリポジトリは担当部分のコード閲覧用です。単体ではビルドできません。
-プレイヤー・分身・イベント担当のコード、BP・DataAsset・マップなどは元プロジェクト側にあります。
+このリポジトリは敵担当のコード閲覧用です。単体ではビルドできません。プレイヤー・分身・イベント・共通GASと編集用アセットは公開対象外です。
 
-以下は公開コードのincludeから確認した、元プロジェクトへの直接依存です。
+公開コードのincludeから確認した直接依存：
 
 - `Source/ECHO/Public/Combat/CombatTypes.h`
 - `Source/ECHO/Public/Combat/EBDefenseFeedback.h`
@@ -16,4 +15,4 @@
 - `Source/ECHO/Public/Ghost/GhostEnemy/GhostEnemyComponent.h`
 - `Source/ECHO/Public/Player/CombatComponent.h`
 
-UE側ではGAS、AIModule、NavigationSystem、Niagara、UMGなどを使用します。元プロジェクトのビルド設定をそのまま代替する一覧ではありません。
+UEのGAS、AIModule、NavigationSystem、Niagara、UMGなども使用します。

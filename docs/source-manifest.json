@@ -1,442 +1,462 @@
-[
-  {
-    "path": "Source/ECHO/Public/Enemy/Abilities/ActionAbility.h",
-    "source_sha256": "6314475c9355305c9db3de241592dc9632b8ac3e889c78ded037e49b25f423fc",
-    "export_sha256": "0fc981894e50cbb47256110f980809f8e53e44ea48f38b6a1e7ce4b7f290495e"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/BossAIController.h",
-    "source_sha256": "efeb56695d1e98493d23d67df78662a45604cdec2dfd3ba933dddb271823be54",
-    "export_sha256": "7ff9c6c4306dbac0ec48c47af25b038db993822e309885688724df399295aa3d"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/BossPeformAction.h",
-    "source_sha256": "d6d0cfa9e26a10029fe3e729033681acfcbd271eab47cb7f1ad08f46e3757de1",
-    "export_sha256": "0e9018aa107a2c08625b4a51b3d257a7cb5eb9e1ef5ee26c9925ef1f5583fa71"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/BossUpdateCombat.h",
-    "source_sha256": "94fac7d959be884fa9a238ab173fcaf43c28dc73fba8adfcb1cfe2aadaf1443a",
-    "export_sha256": "f14d40f20bdcd46c3c7dad01d7eabadaa0ec3c56f0308ee2da72e6b43c398593"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/EnemyAIController.h",
-    "source_sha256": "15d469b3f07c639f6faa5aa7280cdbaa3c18c11e006e26407d32509a91f97a17",
-    "export_sha256": "2575ee2983477918574bcb66311ab8c7af04a2554d59545d35963a181eb869b7"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/EnemyPlayerHistory.h",
-    "source_sha256": "49c0b9e4b60fc9a803c465a6c3061bded0fbb7fcbae4699625514b7dd11b2fb0",
-    "export_sha256": "49c0b9e4b60fc9a803c465a6c3061bded0fbb7fcbae4699625514b7dd11b2fb0"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/EnemyTargeting.h",
-    "source_sha256": "527b63062319f699c7c910b5aee9c50e5607481b301bbd76d6c6023d1d6ce7de",
-    "export_sha256": "2179cce36a5155a6f622cc3f618b8e952d99ef5a81c6e51fa85bde8a1cf92c99"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/AI/MinionUpdateCombat.h",
-    "source_sha256": "32ff7742a5257f7acaaa6cc982742915ff12f703f986ef955bb157f6b7fdb13f",
-    "export_sha256": "423c16eda6ddd3c7aab0f8fb063ce72450c42a6bb752c908c35bc92c78c991e9"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossAfterimageWindow.h",
-    "source_sha256": "e633ea1e44bd3d5d5c1a8970c74cb20a36ade308445b397a5b01dae37d7eddf0",
-    "export_sha256": "1c96d774842383e2b60508c4c10ad4bae4a1a9802414953f25c125ca72a4e853"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossAnimation.h",
-    "source_sha256": "7d1ab2486dc9b66267ffb810b66d60969d9bf4af4fe5913d22f887794b232a7d",
-    "export_sha256": "6311beffab2191416e32dfabce3e1b04cbb0c52cb80b56eca2ccea5a8641cc81"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossComboRoute.h",
-    "source_sha256": "34a8e2dcc87b4d736f34f982a79a07d0f1c568c5dfe02df726d72bda7b741de9",
-    "export_sha256": "0a971fa7408f15ff88e4774503e7df686b4091241f7b892871925b116ff96f69"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossCrowdHit.h",
-    "source_sha256": "2aaf73aa281f15b269d6b310970ff7843ddc2db7c657085aa58ce00cb3030129",
-    "export_sha256": "28a38560175f2b3c357c14eb6b656ea88788a437b291f8e0048a526ece7101d8"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossDrawSword.h",
-    "source_sha256": "0c862bba43f53ac6f0fa61a5a8616a00ffd9be27d609767b539294b101d7a151",
-    "export_sha256": "0c862bba43f53ac6f0fa61a5a8616a00ffd9be27d609767b539294b101d7a151"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/BossFaceTarget.h",
-    "source_sha256": "54a930864064e71aadb8b41748e6ccd635a0f72473237ac94f49d8cf41b21e5c",
-    "export_sha256": "ab606a512d496e19a2c3696f78cde33106acd1800dfe350fb390a1b66f53fef4"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemyAfterimage.h",
-    "source_sha256": "01bad45cea7e7b3224e61e1a1f7b78ef9a3bd1b49fd4a8b871ead5624ceabd3d",
-    "export_sha256": "86ef8eacc4720457fba99562307de706d4c7eb9d4722732d32fa9789d490d8e4"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemyAfterimageTrail.h",
-    "source_sha256": "b0c71dbe5fe80571d4fcd7c3a46775e4a9a330f677817684dfc496cfa7f7c1cc",
-    "export_sha256": "fb2cce2dae1a8d4ee57b781b3c9f547c9e78f2f61b837f3f0b23f28199472a24"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemyGroundHit.h",
-    "source_sha256": "e9ea6097ca2155137fae3b9f922de5ddfb9d36c753735fbe7d1e09e771f2f67c",
-    "export_sha256": "e9ea6097ca2155137fae3b9f922de5ddfb9d36c753735fbe7d1e09e771f2f67c"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemySoundNotify.h",
-    "source_sha256": "e00c96dc1e104f6f6e2d6b72b58ef4a46b14c614ded98febe722d557eebb0187",
-    "export_sha256": "e00c96dc1e104f6f6e2d6b72b58ef4a46b14c614ded98febe722d557eebb0187"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemySwing.h",
-    "source_sha256": "726411ef8e097b711e10d02ca6e0a6696213521ba7e8c42da9001aa1df20825a",
-    "export_sha256": "726411ef8e097b711e10d02ca6e0a6696213521ba7e8c42da9001aa1df20825a"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Animation/EnemyThrowBomb.h",
-    "source_sha256": "e3a1508efc6eec38e89fecb91a4a9771874e7bf51f01691264c98c21fe3accc0",
-    "export_sha256": "56683e999b599e2917d2aa068d83c4f48dd2736b08a0bfae409095cbf9f301b9"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Audio/EnemyAudio.h",
-    "source_sha256": "d5ff071ff6440e49a90637c2b1edde738fe3dba716981de8484519a8b56b8fc2",
-    "export_sha256": "d5ff071ff6440e49a90637c2b1edde738fe3dba716981de8484519a8b56b8fc2"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossApproach.h",
-    "source_sha256": "5307dde61e090aba4f16698802bd89b23c682607dc6d0652b042e33831464905",
-    "export_sha256": "5307dde61e090aba4f16698802bd89b23c682607dc6d0652b042e33831464905"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossCrowd.h",
-    "source_sha256": "a5035f1af6d88d0ebf296f790f27fb6109f552fb4651dbc355c73b7673e6b065",
-    "export_sha256": "3ee21ce94e69e63f5eec3b6dfc8a5443582f3eca7c5430d231883874a3ba955e"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossData.h",
-    "source_sha256": "a47c23d9fd2a0f338553efce403f6cf5094086cbc44511906322cc47126603ee",
-    "export_sha256": "17de8d4fa421e70c3bd06ef1bbab9c39779b242857d5da76b4f4c54ca46ffb8c"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossEnemyCharacter.h",
-    "source_sha256": "c49487a01deb2710ecca3eaf995dd5a93e12f375d35049b9d6c1f399b4b8dfe4",
-    "export_sha256": "cacc2a36908d455168fc16e09c5a7f02018580a163729f039ea762cec482cb9e"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossObservation.h",
-    "source_sha256": "9c0badda78392436895178dbb12ee40dcc7a1afbac1aa16b043019b763ab5aff",
-    "export_sha256": "1b447177516e84bf0d3c09e39089cbb8dc58516fb37c722e47965be17bf623f4"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossPosture.h",
-    "source_sha256": "30189743a5f746b58c60a2f2284a5f3e01cde55aa82b4b87d0cf5c1c4e0bf194",
-    "export_sha256": "1ec92538563c8b78234fbbcef2d257acce7fc469467f3c881efeb7366c8951eb"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossShadow.h",
-    "source_sha256": "b24427b2cb59b9cee8ca6ad3fd7c76dd1ebb2728e07bf11380a618bfc4de1814",
-    "export_sha256": "db5ea79dfb7754e5e094a6c1189693a17f094b004824a624b0b373e3424c3fbf"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossShadowSummon.h",
-    "source_sha256": "3ae8d9d07368cd63be0b390f1310fa1251ec16d6998fc15f87ca4d88e98ab031",
-    "export_sha256": "490d20b3a1bb505bece27fe83072db0a88cb6abaf0e4a62face47a2a743159a4"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Boss/BossSpacing.h",
-    "source_sha256": "88ca66ad352fa214723e6cb89ad0aee80262edecb9cca5ccfe1326766f5fe0ea",
-    "export_sha256": "8bebbef941ca5ea641a3901b40969082c0033ec19087b3350a11a7c9f7054d25"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Combat/Combat.h",
-    "source_sha256": "2e28b0ab0c262fc4d3ddf27528ad7d734078c2eb99148fa8dc45822aeefa515b",
-    "export_sha256": "f79e640d0b6f60a2fe658df2239f9a632f995645bba447f92c1f5e541a6cb2c1"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Combat/Defense.h",
-    "source_sha256": "ee8c78e9932629d1fae099236de6aee292eafa0bad131292c2507b6c47c8b91e",
-    "export_sha256": "20a56468c630576ce142c5fbec232843a4c0efdfda60ec489b4579f540846bf5"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Combat/EnemyBomb.h",
-    "source_sha256": "d0ca99ad00eee7cf17819ba0a87729f1fca069cdf9ee97e5e8bc01db628a28b3",
-    "export_sha256": "7259d327ce79ff1dcf4b158ca1112ee624f45e9f73784c14b20032fe3f950012"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Combat/EnemyHitEffect.h",
-    "source_sha256": "f7cd378430d93ab818b846baf2bae11240d7c47d5536a7ed8afa481abef9f053",
-    "export_sha256": "1958e01bbff4ad37b88c755f0dc552dc4e96e22ee884bc347fd1c2c2be47fb0e"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Core/EnemyCharacterBase.h",
-    "source_sha256": "57b296e557aaac6ba41b1aa122077972619f7f7de6041fe0c4eb4e2351297fa6",
-    "export_sha256": "69cabcf531f115848eb5d0a7ccce9775c4d581e7ce5fbce928a7fea85ee2e5fa"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Core/EnemyData.h",
-    "source_sha256": "859c437ee34e2d42d0ab0f287690547c63cbe97342cf4a1eb70b748e9177c008",
-    "export_sha256": "ea3ec97993bd191c1777d211cb9d1ea1e375684752376a19609446a500571634"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Core/EnemyTraversal.h",
-    "source_sha256": "ee424e6461ab5bde056d17c61b35509fe49b67424ea986659a343e1fdd490300",
-    "export_sha256": "24b39b21fb06003700669527b9734bb34b1ba584016cc478f7a53ddc275d4894"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Minion/MinionCombatDirector.h",
-    "source_sha256": "21e66cbd56a5e96b33b57a0b6953a9f1caeb1a2cab548f9bb4ed926c154ec46e",
-    "export_sha256": "acd1fe4b0bbc5afc4592628ff52ba4e2f1a200a1cb590743c2e5e37a115daf23"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Minion/MinionEnemyCharacter.h",
-    "source_sha256": "2bd96b40567af22bb7023a8aa7d00ce22fa3b655dd85420498050a13cc6edf44",
-    "export_sha256": "2093786f7554537f09e366318f46f6ffaaa9f9f316a1651441c9be10fc8d79fd"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Minion/MinionFormation.h",
-    "source_sha256": "3e75716e57ee75d83d81e3b7df7b492973ed5d2a1d2ebf30c3b4f02d9aa18f9f",
-    "export_sha256": "9d55356035ad08e43f53cfdc23f99cffa64b1012b70732ad0936cfdae40ac88e"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Minion/MinionParryResponse.h",
-    "source_sha256": "ba58cc1d86f52856b861a407a0bf1fd1587ebf8ed820f128048b8c456ab56940",
-    "export_sha256": "f5bd99239ec92fc602ae4586fa88c39011189bfd028fc396b7127ca1493cae54"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Spawning/BossEncounterSpawner.h",
-    "source_sha256": "46bfe56d142e1466c8761bd5a73b883da617a2291a3ae2f4ba562e277e2ac08a",
-    "export_sha256": "578b64462738559141675b7493337d9ececcfc6f85cf2ea9b90806da316a7b53"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/Spawning/MinionSpawner.h",
-    "source_sha256": "edea4a9c56b90b0220260167e3a375638bd3afa26a6a78583a4154af420f0c2d",
-    "export_sha256": "650d5208dfaf7f44f9003b5e9033785e2e2911fdd0586f8fb9993ecf6f8d2b5f"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/UI/EnemyHealthDisplay.h",
-    "source_sha256": "b8cfd39c23bd4c3073a7217169a87ee4479a0a6aac364b82e87aeb553c02ab7e",
-    "export_sha256": "476f78217b90b5dd5dd55a50a2856ff035a5edaea138c8b882433ff876bf107a"
-  },
-  {
-    "path": "Source/ECHO/Public/Enemy/UI/EnemyHealthWidget.h",
-    "source_sha256": "50b9362237111c9157658e42a0c0dbe976463c2506298873e92583d31abdb281",
-    "export_sha256": "268d0293236421075af5b4f4f5689a9b84348a0100fb36792404ba3430d21feb"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Abilities/ActionAbility.cpp",
-    "source_sha256": "4eebd3a132d3878303a8daa39537875318079bfd6c57cf5677948f5b1ef56f4a",
-    "export_sha256": "4c91d1b3c568ec54b8a1449f466427886c010b0d7a91e785838dcc5387827a0b"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/BossAIController.cpp",
-    "source_sha256": "517364cea3a0814baee687acfb0cf53a41d073e25e58ac17b6e1d0a7332b875d",
-    "export_sha256": "0f767ef702ac7f40bb174b0b0dbadecfbb3e5576c7932a8c8bfc91c1db6f5ab2"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/BossPeformAction.cpp",
-    "source_sha256": "1fb643c1fd6a28a6dce88f29ddef8f77570ec7474916a1182a955b9599b6f800",
-    "export_sha256": "86c31c0e4bb6aa4d42750e222876f3d484f1f27de5da5c250955ec30345bf415"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/BossUpdateCombat.cpp",
-    "source_sha256": "a9e8b45c77b3202f112fcadf3549ef26e7d4ff6e38b85f4494749f61d2ac3019",
-    "export_sha256": "3c40028fc93d18a0c47010935a6fe159875ef7cfa10b7e1ef4f10cb39b5c4811"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/EnemyAIController.cpp",
-    "source_sha256": "3282c95166789aa8fa36679cdbdba1805bb342cb4698d2418e2ee2194a1dd293",
-    "export_sha256": "3672b83e838a60c672797f833f9943e9005bd2bfd7a77281296cdccc779c4cb6"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/EnemyPlayerHistory.cpp",
-    "source_sha256": "8c78080eccff95ed37c95c601cab49e54b778fbd81b2b3769edd6842915220df",
-    "export_sha256": "8c78080eccff95ed37c95c601cab49e54b778fbd81b2b3769edd6842915220df"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/EnemyTargeting.cpp",
-    "source_sha256": "182f91eae42994b926cfdb3148799719cd88c1d2d1fcd57c112b0ef6f7fe7832",
-    "export_sha256": "52913b2341db3f6b7a23ce8ba3b93d304d3e98c0cbccbb488e73e0d0fafd92d0"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/AI/MinionUpdateCombat.cpp",
-    "source_sha256": "de7d8cfc65089b8dc520b60e1bb261265a92baeaa105f0aab10ae28131cc1580",
-    "export_sha256": "e3b099a6db9f7e86ba29ac89e7f74fdb687d556b240f2476a5cce808bef6eea9"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossAfterimageWindow.cpp",
-    "source_sha256": "0b12f0425bcb5f409fd352387ac6c99298bb02993ca7e039316330b24ea9ea02",
-    "export_sha256": "4d23374d71bc5d2af2e3f8b246d90b76bcf519f2d44d8b8cd8cb88752da1da1e"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossAnimation.cpp",
-    "source_sha256": "6d2eca385071c1c20ca69d2c19c81e08e47e8c43ea33514808aa1d20372decd1",
-    "export_sha256": "ca5ac99da6273f679400c1b697cc8de8984467de6806d95cbe210d3982204fd7"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossComboRoute.cpp",
-    "source_sha256": "ba8de0893b3c7d691b04d9ed24a0c9a4aafcdc507b9500ac226a13b864bab8dd",
-    "export_sha256": "07eb7de38a4c50648ec7e7750fd025ef936ab3f58d9186e3e468da225e57bff2"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossCrowdHit.cpp",
-    "source_sha256": "2755c60927fe6d6747595414649a1578b1027884e5ec02bc2d4ca03a09e85040",
-    "export_sha256": "18784f5decbe363e689370164123e2599f7bd47786f1ef0aa006d3c258886a45"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossDrawSword.cpp",
-    "source_sha256": "5012d62bc28c1db5134a5f3f4adec1e539143f47f30a89f23ecaa87ff8f6fbd6",
-    "export_sha256": "5012d62bc28c1db5134a5f3f4adec1e539143f47f30a89f23ecaa87ff8f6fbd6"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/BossFaceTarget.cpp",
-    "source_sha256": "27cf6c814c4459c382a5164e94e82ac75d3a6c817c1ce167276df0ca55a3cc24",
-    "export_sha256": "29d96230afd3bbac1e2a0e58d89b2a470e7bd37ba1a253e65551dfd1ee9baac0"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemyAfterimage.cpp",
-    "source_sha256": "92abf4218040e8068c40787a233ea578a760420e40bbf06e78f0bcd59baac283",
-    "export_sha256": "e68952fa41f9cc778e2c958d7777c30061f2d040ab8625730c54e534c88f6a0e"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemyAfterimageTrail.cpp",
-    "source_sha256": "0017ff95f9ce77ab540195aa6f73b1b8918971bc9079eb69139dd9bafac45986",
-    "export_sha256": "7b7b3d4a06a28b5f2243d5d6ef2c9ffe63b3246fefc35384b0751bb905603576"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemyGroundHit.cpp",
-    "source_sha256": "034d7f7fd6159c2172b43d3b88b6b756fd171841fd9d9e2fb22d057a9ca73956",
-    "export_sha256": "034d7f7fd6159c2172b43d3b88b6b756fd171841fd9d9e2fb22d057a9ca73956"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemySoundNotify.cpp",
-    "source_sha256": "922eecc1f3fabce77897a21e86697f409a2406f06f67ea06b90782b242fbdb29",
-    "export_sha256": "922eecc1f3fabce77897a21e86697f409a2406f06f67ea06b90782b242fbdb29"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemySwing.cpp",
-    "source_sha256": "f717b5ab4c45417ee946bc0651eed7912c95bbab050e7d05164640b968dc9609",
-    "export_sha256": "f717b5ab4c45417ee946bc0651eed7912c95bbab050e7d05164640b968dc9609"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Animation/EnemyThrowBomb.cpp",
-    "source_sha256": "9efc4697c657a152afbbdd0d1a9b9c65440b5da83eede9d589413decbdab45a5",
-    "export_sha256": "4065fc7b670fa33d16ff7c8358429e70f2b347bb3d504fac4fe063f0474797f6"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Audio/EnemyAudio.cpp",
-    "source_sha256": "a7a8845ed0f9fb1432e4bf5be26d210fa35f532e3a255efa433d977a3f69ac76",
-    "export_sha256": "a7a8845ed0f9fb1432e4bf5be26d210fa35f532e3a255efa433d977a3f69ac76"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossApproach.cpp",
-    "source_sha256": "53eb35baf38594849d7b6494f0faf10696b39f9ed49ad8c7a31bec218976b9e4",
-    "export_sha256": "53eb35baf38594849d7b6494f0faf10696b39f9ed49ad8c7a31bec218976b9e4"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossCrowd.cpp",
-    "source_sha256": "2ab480529335f1646f180f6dd67e47bd1d0071a666c7fd98758a417564bccbb2",
-    "export_sha256": "cc4d9fb9a7b6a5d20bc08947716a1b936dd7435a5faf3267ec4611f6042a9c36"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossEnemyCharacter.cpp",
-    "source_sha256": "d2c81eb4806b43b302ec5f6a26f047b4db8a8e7e759dfc4490297767512fa773",
-    "export_sha256": "97690821c44adea68b7b945a41fbae168a0e18e42d7a1ad040eb04139e3dcae1"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossObservation.cpp",
-    "source_sha256": "122c3287f11bcf5957b893508227c2845b29f46edc933a846c5ca47f2fcb624c",
-    "export_sha256": "80aed48fca56cadba5406578cfee7125c50925f417c6a72028f85607eecaab8d"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossPosture.cpp",
-    "source_sha256": "06402c122bd85177cea282e3ab48c7c80e8a46074c93c87a151730264aa9ae4a",
-    "export_sha256": "0763a45a7f0bf51ccff3a8b756ab36d097e7add24ebc650237481cb346048e00"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossShadow.cpp",
-    "source_sha256": "034c5cf5bac6c11f295460614e741eb6a083d893b5c68a724f3b2e3e70413237",
-    "export_sha256": "aee4df3fd53c23fd807456c08eb1b50c15ec493ac3cc30606730da3e81b7f2ea"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossShadowSummon.cpp",
-    "source_sha256": "820271af0de7a490c119369b6b2c30afbcf116753b10d7dade671fb7f3071ce5",
-    "export_sha256": "940d698444c412954bbf752c0f797164bf0202d1c497b767caef33a725ae665e"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Boss/BossSpacing.cpp",
-    "source_sha256": "08c8385cf8745fdb38e1b293a30715509897e83b34b204e156b2af13528450c1",
-    "export_sha256": "c220904010529737bb9d21851fc2d6d106df76476bfc146593cbe831c9962c2a"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Combat/Combat.cpp",
-    "source_sha256": "6aff72f5a50ed626cfd7726cf548b5ac59d3d1fc2d80efc4cd8c85d4368777c9",
-    "export_sha256": "eb4b9d38b463dd37f99ab81bce32c48dd3687547b15179ddb2fc618071743047"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Combat/Defense.cpp",
-    "source_sha256": "eef79433f2c203fdad13bceb5b22b75571209daa5e6108cb7c3680f75dd44cc0",
-    "export_sha256": "59bcf36972c990bbbe218684be24b5e753011c0a534040553fc99ac4e54b1a03"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Combat/EnemyBomb.cpp",
-    "source_sha256": "5955dc05d6c287c9ac1fa4236a5d32ca6ec87d3ccc62708887f88b51b7d88f17",
-    "export_sha256": "8bc04a230adbe9fb99dd5d009ca4d42d24f15526a3d58a4f9448f7f5415b7ddf"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Combat/EnemyHitEffect.cpp",
-    "source_sha256": "415c13ed5f5ecf230788499755012ac50b991f7b0c0cffab5b0602baace3102c",
-    "export_sha256": "09792129380103f943cfea91d3ca36d85d601fcf8cec8d2b61c4463a217bd407"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Core/EnemyCharacterBase.cpp",
-    "source_sha256": "4bb300d7d8699bfced20c37bb2c526d76a5aa280ae798c75a0031c54edd8cbfe",
-    "export_sha256": "4b0b78d301cdbdaee632d3eadf7d2011d19242df40c99c9d0706413836f13c07"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Core/EnemyTraversal.cpp",
-    "source_sha256": "0f11962ba6c10674ecd26940d56dfe32669d8f685cc1a08d6c24bfbc64966512",
-    "export_sha256": "e5bbbfcea1fcbe01e9be04196a4d012e3bb6ffb28e1c585df91771faa235928b"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Minion/MinionCombatDirector.cpp",
-    "source_sha256": "a84fce2819903ae11768de243faf122528220bb457ffc5de7cac05ffde4ecf8c",
-    "export_sha256": "05c117dbb723a21b19c449b7f787b7307e45f0c2c0cd128e6baecc245d5dca20"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Minion/MinionEnemyCharacter.cpp",
-    "source_sha256": "4e11cc71400f714dec868be02c9a96117f120248e86dc05d6672fe38c9880174",
-    "export_sha256": "f3ae201f6b06ef32c1ccab0e8b45c1533413e72cf117d1a232dd2271267941ff"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Minion/MinionFormation.cpp",
-    "source_sha256": "43ab30082ff81fae2ba4456a028ff2574a2b76cdfdf5719d3cca4ddda6984999",
-    "export_sha256": "7163b792f3e001a0c4f7bff1fcf2b3fc5b3ca7ef93aee87635eb2415cac7bae7"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Minion/MinionParryResponse.cpp",
-    "source_sha256": "d7b69a8999f5bec7a919fbe7af18aca7d30ac674ec9821c19f87351660adab47",
-    "export_sha256": "84c1639fd7e00f89ac24cda9e35a447b84c2b142d40b944f70853f83aec48586"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Spawning/BossEncounterSpawner.cpp",
-    "source_sha256": "5c49569332fbcdf0468233714c52af894cc38d0e3076afe71246d71b51c8dc85",
-    "export_sha256": "72d8ad3d09ba2584909cba25fb6b4d853e4c71e58b07f352f0ccde2b88f3d747"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/Spawning/MinionSpawner.cpp",
-    "source_sha256": "827a178a4bc2cd7693c71f3bc0089428798a45aa57cc60d435d505d6ca334c7c",
-    "export_sha256": "afc6c0026249cc865e61f5225eb258cc3c0d7514b280bfa6aec7e0c2675702a3"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/UI/EnemyHealthDisplay.cpp",
-    "source_sha256": "e14c9256a6722d3f5e4b85242d8929c48ad2663e7e86c1dad91d30301c9d2a42",
-    "export_sha256": "00707215445f4abaf7d77f4fbec358d3d404cf9acbda251676719ce2541c3512"
-  },
-  {
-    "path": "Source/ECHO/Private/Enemy/UI/EnemyHealthWidget.cpp",
-    "source_sha256": "70315624f6bd998158f267edeffa91b2073f83cf5adf0ea37b30d79c4ee39690",
-    "export_sha256": "802d61d306df32c35d7fcd8f6f43cac7d95a3837ed9e0a3020c64037b0120e70"
-  }
-]
+{
+  "updated": "2026-11-12",
+  "source_commit": "d6f764d46238fdceda8df41b0796b10bcdcc17e0",
+  "scope": "Enemy-owned code only; not a standalone project",
+  "files": [
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/BossAIController.cpp",
+      "source_sha256": "5a5f71c7fd7288f10fbd516307ead5ee07844495e300446f23b5d0472202877d",
+      "public_sha256": "4c74be087ed6d56f048da6914cbb1637d617f6631b323705423281030472aff2"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/BossPeformAction.cpp",
+      "source_sha256": "73ebef28a74858b4e8a2010bb465a34d47264a24616c1d9a66347353bac557cb",
+      "public_sha256": "6dd1534afb79687770c063bf29b8755c7fa2e22009faf4f22623ac4728a0c232"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/BossUpdateCombat.cpp",
+      "source_sha256": "7e3876ad78c1252afb89808fd70c66d2bf58810ac0da71fe2e80bed9bcfea799",
+      "public_sha256": "f82b34de1573e44f2d8be57c96512da579977efbe97f48b2f88b8cc5709e5bc1"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/EnemyAIController.cpp",
+      "source_sha256": "fd3675fe3faca077058c52cbdfd05dd13079a1cfa47791407db6304214abc71c",
+      "public_sha256": "933c02c015ce5758796dfcb931db723d2820583b76626aac54767eb88daeed8a"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/EnemyPlayerHistory.cpp",
+      "source_sha256": "13dff8df8bb503b5ab3529ee64d1aec69f0c4590c8bfee3876420cccec2bf4ab",
+      "public_sha256": "13dff8df8bb503b5ab3529ee64d1aec69f0c4590c8bfee3876420cccec2bf4ab"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/EnemyTargeting.cpp",
+      "source_sha256": "488e5e894bb062df3aea4f109ab7ca2e2b6620464bf7e33c7e47b7b2e8823a3c",
+      "public_sha256": "4827904a79169789b437f11f924ba426dbd19b7d3190f44f63d6e23ddd8f11c3"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/AI/MinionUpdateCombat.cpp",
+      "source_sha256": "849262132b8551ea4858e9a508211842925c1397ac0327be7954a35db496d7e3",
+      "public_sha256": "d407376b889372338ab73914a5f171bbd1c5b84067605836b5d17698b67e5969"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Abilities/ActionAbility.cpp",
+      "source_sha256": "f338c0eabc34cd258fa670a818c21ab84dbe6d48ce4d37024228f416ce873019",
+      "public_sha256": "a856fb2f461012781538dabc85c7146c6de414ce1f57c8cfca1008a66d9f79b1"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossAfterimageWindow.cpp",
+      "source_sha256": "7f0e904d5219e40c75776d3517993dff5d4f1cdd36baf247a2f07e04ca02657f",
+      "public_sha256": "862b16846bd4dbe76993cc10f8e3953857459414336926909ff327120165aa84"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossAnimation.cpp",
+      "source_sha256": "4414957c80203ceaa4bea1aee7d0e222e1d7ce0efa6d5054159e96f95f36acd5",
+      "public_sha256": "6a8436f2c99a6cf1a1373312dfeb93ef0daf1e72b891453cb23ce973b5d4c5bc"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossBladeTrail.cpp",
+      "source_sha256": "64a9b296d53ee5f8deb4448899fb9598ed62965f69350ec3ea7a582b9b09a8b3",
+      "public_sha256": "f4743abc80e2d25aea0073388be9a21647b1d644aeeef2e7ba82ea24be04fd01"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossComboRoute.cpp",
+      "source_sha256": "e75028a0a6e8d9a52006802278ff8e429cb259dfc46d6d2a1dd63eb3124a587a",
+      "public_sha256": "018eecd9b25be66a48d47f20e0b3e10cecd007cf44053e2e7a5e78b28eec088d"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossCrowdHit.cpp",
+      "source_sha256": "2755c60927fe6d6747595414649a1578b1027884e5ec02bc2d4ca03a09e85040",
+      "public_sha256": "18784f5decbe363e689370164123e2599f7bd47786f1ef0aa006d3c258886a45"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossDrawSword.cpp",
+      "source_sha256": "9686516b9a38f7e90d8b5d5786f682b8afc30d060dd858e4e483c2af8b5e0794",
+      "public_sha256": "9686516b9a38f7e90d8b5d5786f682b8afc30d060dd858e4e483c2af8b5e0794"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/BossFaceTarget.cpp",
+      "source_sha256": "23b3674c8a5f5c2d9e200e27005e177dd4ccacca02f3a35c9597f181db74febc",
+      "public_sha256": "f254e3253cfc4fae829c01ac24d5919becd297f1ebf700d1d16813ee85ae181a"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemyAfterimage.cpp",
+      "source_sha256": "248ea94f6f4971d4fcb04bb4f7a4c6781a1eff8cefa294782f4e9110b75dfffa",
+      "public_sha256": "a04fa3cae5425f711cc38c67b4cdfbfa145bf339b75f2a259342f8120d84eb4f"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemyAfterimageTrail.cpp",
+      "source_sha256": "88ce104a5552f75de3413fcd57fcfc0571a644ef9e0462801a5bbfe841ab4b37",
+      "public_sha256": "37fbdf0089973afd1c48ada416657bbca38ca2877b2b025026605af4598984ed"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemyGroundHit.cpp",
+      "source_sha256": "d549bf5c3aa2ca287ea9a68e97f5d5445e06b00fcb70f8fefc9b9feceefbc477",
+      "public_sha256": "d549bf5c3aa2ca287ea9a68e97f5d5445e06b00fcb70f8fefc9b9feceefbc477"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemySoundNotify.cpp",
+      "source_sha256": "a9a28427c006c4e8cd30b3237ab07bd0f6e21049aca1c960a02e8d56a6605d06",
+      "public_sha256": "a9a28427c006c4e8cd30b3237ab07bd0f6e21049aca1c960a02e8d56a6605d06"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemySwing.cpp",
+      "source_sha256": "faeb1c8eb2b31a7b466aef87b1d2d0610256f081725061ec6d3001a08f0bbf7d",
+      "public_sha256": "7e4f54994187d7ed5464d6e67f4bd2ce53f361ee90a3eeb0d457ab5dc1221328"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Animation/EnemyThrowBomb.cpp",
+      "source_sha256": "af041609ae7d7d340778a9ea59e0807e28eba6301236a5bc6684838392a530e8",
+      "public_sha256": "88b74fb6264f6335ca14474aeb8ad520ea61444e9657b86608993184a07478ef"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Audio/EnemyAudio.cpp",
+      "source_sha256": "29e31190c1dd33f32d3c8de889bffeacd96dcdc6f5c90ecb3908c935f902db74",
+      "public_sha256": "29e31190c1dd33f32d3c8de889bffeacd96dcdc6f5c90ecb3908c935f902db74"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossApproach.cpp",
+      "source_sha256": "7b03291b931e172678988bc42ef3b434884b397fb68d0fcc0940f792cc45f22e",
+      "public_sha256": "7b03291b931e172678988bc42ef3b434884b397fb68d0fcc0940f792cc45f22e"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossCrowd.cpp",
+      "source_sha256": "bc1bf33c0b8a92dc12a31052bae9dc8e629edc6acbf5d4324f83fe4098050ed6",
+      "public_sha256": "72184f14268c3ba7ed57a21a961de21ae7e54ada0ca16586db6dd6b29cdbdcb0"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossEnemyCharacter.cpp",
+      "source_sha256": "446f65130567283bdaeb6f02339d5af199b65b20c3e6055e4ab6dd996b7dad1e",
+      "public_sha256": "a3bc4b73433dd023964f931e92a0bf64bd46dc3f3088b1798a5fc6aa7adedc9b"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossObservation.cpp",
+      "source_sha256": "69fb6998fc24f453b5a4d8a310af0ea1e77972b85f341f6cc4cc2ab486d6963c",
+      "public_sha256": "f797dca7c5a00fd749bdfa55b617bf4d364243d9f69f9a8b1f2d34498015c01f"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossPosture.cpp",
+      "source_sha256": "1a07997ade759f5aa0a9ed4a5f0328573714ec7ab403f67cf0f5901c06acad6b",
+      "public_sha256": "2dd064ce5313b9df1006d59ff20830f97777500973ee1e73eda0209b7537566d"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossShadow.cpp",
+      "source_sha256": "4992f987929211c435844f4c90035dbb0175e09fa0ae3bcd56e1aaaceed51f90",
+      "public_sha256": "2b1bddf33eb312907690624e8944080d98bbb0655d92891c3be4711d32fc52f7"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossShadowStep.cpp",
+      "source_sha256": "247bcaab7ce75fe06488571399321e205e52c8f997ae02c61e428c02a82a137a",
+      "public_sha256": "fc4d11242c08962b6e339e70b5a05884bcddf49d1429e7c936067a39bfc39cf4"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossShadowSummon.cpp",
+      "source_sha256": "058d6ab6693dfb86fdf56b08c7f7584567ef7616637f3d3b3b3ce62b97b309e9",
+      "public_sha256": "1c7652682976cc853f78909c959c4511ff2a0ef136184f3150296f244bd4ab74"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Boss/BossSpacing.cpp",
+      "source_sha256": "4be10c71972d1edcb9cae94f62c816ce3144e0e51b0cbff55ed56fe5f36edec9",
+      "public_sha256": "a0dd325383d9d998abd56bc1be126e32d1fe46366c270db3209a55956b73d2ac"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Combat/Combat.cpp",
+      "source_sha256": "f1e9ccd42e8684c50fbe3863f21aa8a3a51d9bff09056293fc54ed7b6de4ddbc",
+      "public_sha256": "5164e534decfb626fc011f1c5f63ca8be5169af0940c54ad988fc82b848dc21f"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Combat/Defense.cpp",
+      "source_sha256": "b8279e0a1d89ebf483d01580a1e745ccd763c0cc64b51a74f4c9cc0c56574dd0",
+      "public_sha256": "b8a0c83ba0ddbca791108d413f4a14e52fc04fbc4284d2c801690cc6cf13ec80"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Combat/EnemyBomb.cpp",
+      "source_sha256": "cb20d5b651c13189aa4328e106d524ef46b208cd071c2a3fa92b46ca7ffaec86",
+      "public_sha256": "d429b56fbc1529aad87bd4f311ff1f2bdf2548809e1c0de71ea45c6c8211a79d"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Combat/EnemyHitEffect.cpp",
+      "source_sha256": "45b133084410c74298c70838816734d0cfe7cbd7b4188db128360ab5d91054e5",
+      "public_sha256": "3ee9ae7b3496dec44ea19197ba896e2f013842f9116c388a37a561070f021f48"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Core/EnemyCharacterBase.cpp",
+      "source_sha256": "141c8d3055793194c065188c7d059e5894ffc070baadf02aa715dc8fe5c787fa",
+      "public_sha256": "ae9e44191b299733a5795c1ebb54e70e00a810ce8a9b9dd22ebfdb5a693fd65e"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Core/EnemyTraversal.cpp",
+      "source_sha256": "a4cc8c23ed339c4c78152891ecf695a9f048d4160365baab2de99758c481ce25",
+      "public_sha256": "52bab94e2cb6f3a0cdb3cdf8bb36327b32649a469e11e8eae4bb2de20e5f5762"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Minion/MinionCombatDirector.cpp",
+      "source_sha256": "1814829b85228ab3a8d2e497b6ccdc2e53182d63c35c20367cb3e6691bfd486c",
+      "public_sha256": "a067c9d40f25f471603b01562cbae86e4f0725f713c8f5f6329e2b9932ab998e"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Minion/MinionEnemyCharacter.cpp",
+      "source_sha256": "8ac1ff5d1dc87e2f3a2d4a5dac30ab646eeb449295da67f9dd0af70b6254989f",
+      "public_sha256": "e2fce806c597cb57ea15ea3bf6f5c6d1a9c75bfd5d96c258cbdee263cd2ec987"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Minion/MinionFormation.cpp",
+      "source_sha256": "2f5a0f1e9169a21617f0e46f07b73f9e55a0228029d557a3d7b5d4834584002c",
+      "public_sha256": "a09ec843249f65bf86d727c8876f30cb950d484dc6bf65a1c4d9147c85fd985e"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Minion/MinionParryResponse.cpp",
+      "source_sha256": "88472eef65aaa3342299c61ebbe6fef7425c6af1531aa2c6adae1383f459fb21",
+      "public_sha256": "4268d93f8d377b01a1563836dd0ce46a2e5d56688279fd56bd694134f2f5a810"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Spawning/BossEncounterSpawner.cpp",
+      "source_sha256": "17e72de2e2902f8632089fd597abdf868b51c25a9931975b60254545df993fde",
+      "public_sha256": "8390bd1433568f584587b628fb35c23e4f6c8da0e070b29596bc8148782b27c6"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/Spawning/MinionSpawner.cpp",
+      "source_sha256": "a507102ac31ef3aa0571993cb751578dec95a6fe86867de822b6e40a1b8548a1",
+      "public_sha256": "a827b44e1307800e3f6b1619ca913f4d3e375cb2b499adafbae49e80a277b21f"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/UI/EnemyHealthDisplay.cpp",
+      "source_sha256": "075b5433f98f4e064e93fec36b49d60cbb51319439ef9c9c7d0d653e04b57b6f",
+      "public_sha256": "b0faa03ee08140d039341feac4d6af88c2eaa8837ef1f27bf39e97863ca376bb"
+    },
+    {
+      "path": "Source/ECHO/Private/Enemy/UI/EnemyHealthWidget.cpp",
+      "source_sha256": "2f109c6e1dfef8222ffa9bb6ff536ebde878919c7335c1d65ee3f7d61dd8054b",
+      "public_sha256": "816696b73adef594d14b5d87c0a6a47a806e852300b62511432bd6449faa0d59"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/BossAIController.h",
+      "source_sha256": "c57d9c19184f58ffaf97eb82c3ca43e633aa7c416e8d3d9e162b2a911ced22da",
+      "public_sha256": "6b1cd5c4570b0d19b38003bb5c27e3a3cd6d3f04f51b0618d7838d13675c06bc"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/BossPeformAction.h",
+      "source_sha256": "402401612f3fbdfb80df8f2222a1c353304daa22491776d360d524faacb3a58d",
+      "public_sha256": "8330c9ba2668248aff90111fc418cc4541563eb6f2e1bd11d2e275b63d0385f1"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/BossUpdateCombat.h",
+      "source_sha256": "08ed26d90fb4aa46377fe999c62e7e3e064aa149f758776ec51fe0128107cb4f",
+      "public_sha256": "8751f85c293ac9aea0565f1921eb998371030d713bd95379c032e21d2894bc3e"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/EnemyAIController.h",
+      "source_sha256": "a38a5136b53e33de358c4bebf2adeba1d6f8d8f2426738f0bb378ec8b6dde59e",
+      "public_sha256": "f2035c3fa8b192774f2ea7ded5fef0d6819b23a00c7959818e6facd9a539a41e"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/EnemyPlayerHistory.h",
+      "source_sha256": "432a410300f2929158c45689f71c1b6637cbf9fdc5f908f57bad232dc3d714db",
+      "public_sha256": "432a410300f2929158c45689f71c1b6637cbf9fdc5f908f57bad232dc3d714db"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/EnemyTargeting.h",
+      "source_sha256": "56c54c0de51f90d9adc8a3ce1799d1e1d560345c5d94feb4022d0648907ca512",
+      "public_sha256": "f1333717b4fa81941d45b3ecb98716a0cb10be7ebb43e0cb3c0f311abd143e68"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/AI/MinionUpdateCombat.h",
+      "source_sha256": "9869c06e8e2f03f764ae3e993f0280d582ef31b1ba2aac791777f259ae885432",
+      "public_sha256": "dc15b106763f38512e28d1b31d89f316a067e47b53d29cf94a3d216d53b57b7b"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Abilities/ActionAbility.h",
+      "source_sha256": "b90665fdf18e0c9a25c84f5f85735e16802a33f3d385432152447695baaad908",
+      "public_sha256": "7610b2cbc12ac94d4ff30552d20d38205b5f5ed22668c90426e04c53ed584123"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossAfterimageWindow.h",
+      "source_sha256": "d58753c830d28c81dbad02fc21ed7762698bcf34b27e6abd095226900103e7ce",
+      "public_sha256": "474e4707c3d2a60d231ce3b19498c80a606988eef16943c962935c7b098c8e3d"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossAnimation.h",
+      "source_sha256": "7c27e736b05a31305fa88640cf8c641b6d4c6da719bf4caa44260350d6c24fa7",
+      "public_sha256": "91d5987d75f612bdd2fc5336004e996114b1c9039f1e01d810be02af53f610b5"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossBladeTrail.h",
+      "source_sha256": "454593149a8269f3173275567be3f042b515ae36ebbbb223eec89f1ac5ac0526",
+      "public_sha256": "57f1dec844622b987ac7517775f24865f65e42c51c5eb994abe8542a17570576"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossComboRoute.h",
+      "source_sha256": "f47faa0db307e45682df7412e860e608efbcb4a928d51dec99a88726aa554102",
+      "public_sha256": "fe7858456ced647c344e6d865ad5f4cac8c6674f3ff3e7ceba1240e3dbab9d0e"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossCrowdHit.h",
+      "source_sha256": "a488195fe4bd01cf1d8ca4062dd6c9230f21bced1e0563ec71dc576c4cbade25",
+      "public_sha256": "ae4d71b8c72461248698ff3a2b7b735dba06c0804637d7d1aae8dfc1eb8cd42a"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossDrawSword.h",
+      "source_sha256": "664792963c35ad9f587ef5d8ccfb82b36379d6dc3af5fc7457fc2cf1d296c3a3",
+      "public_sha256": "664792963c35ad9f587ef5d8ccfb82b36379d6dc3af5fc7457fc2cf1d296c3a3"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/BossFaceTarget.h",
+      "source_sha256": "0971462a69293fd0fc143f2c1b1db2f7b00e1a330a46701f8cf37b99e55fff93",
+      "public_sha256": "e4af9ebac93c820922775e9966ea76f3e42b76d5cb3e768f682c38ea015fa1dc"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemyAfterimage.h",
+      "source_sha256": "bdd02d24af14f01ec73ecd045e6387cdd51b1cedc5cd490d40c02c32f5265c09",
+      "public_sha256": "44a8c8b70a17fc5614adb7cc08e6d4b93a12538ee4aec4022c4d40b7ed7eb288"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemyAfterimageTrail.h",
+      "source_sha256": "f4cd73dd4406236c4ae9bc199866bb09b00e19e755e89a1265683b6525b3af2a",
+      "public_sha256": "a5eb80351fb5cb99001ea227b062308af83e1aadc411ca40ef976ad1c422bafc"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemyGroundHit.h",
+      "source_sha256": "1ce8336cd177844b882a9db3f4ee682654026ba906872355d577c038c683108d",
+      "public_sha256": "1ce8336cd177844b882a9db3f4ee682654026ba906872355d577c038c683108d"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemySoundNotify.h",
+      "source_sha256": "762cf0704245a7592af277c60cf69ff0a56ada6437572e32b3ec3eb4fb4f4a1d",
+      "public_sha256": "762cf0704245a7592af277c60cf69ff0a56ada6437572e32b3ec3eb4fb4f4a1d"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemySwing.h",
+      "source_sha256": "3a197783f43c7520c0cfeafb3da158f25368530b3e938284ff055bf81ffb307d",
+      "public_sha256": "67d3a0894851effaa0fa566a37e533ebebe9a77a1fecbb60b08f45489ddb84e0"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Animation/EnemyThrowBomb.h",
+      "source_sha256": "c83eba8b1028a0714bf528408c5f58cc3c0077e916aa6954fcd3f121771e549b",
+      "public_sha256": "9a0b43ff922a76b6c0e37c3d942a2bf9ad6cb60ffbd3b198b520f8f7e1a25e84"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Audio/EnemyAudio.h",
+      "source_sha256": "3a76f84a86853d1cd1a0c160b9caddca24e9bf963f033ea494a8dca27eb1d30d",
+      "public_sha256": "3a76f84a86853d1cd1a0c160b9caddca24e9bf963f033ea494a8dca27eb1d30d"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossApproach.h",
+      "source_sha256": "03290861f425289b0d8f652165e3b87c50f5ddbbc438cfa1b2ca4e7c273c48bc",
+      "public_sha256": "03290861f425289b0d8f652165e3b87c50f5ddbbc438cfa1b2ca4e7c273c48bc"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossCrowd.h",
+      "source_sha256": "040991e481fbfcf0ea00ff9a554374463f077fb6c2cdeb50222d53f4ed7dad26",
+      "public_sha256": "79cd89d173a7cb3a9954fcc14222290d1f6ea1aa9440d78b8b27fc917c9d1d2d"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossData.h",
+      "source_sha256": "bd0d2fb83d567ec11ba42ffe8ebc381b12d6868fad687bc6fed219786f77a5db",
+      "public_sha256": "5d2e7ba8d1575cee8e6e61d5b426147e0a4e4aa3e5a49d3d72327adbdab4d8d6"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossEnemyCharacter.h",
+      "source_sha256": "43b1fa7a3724f246b0416f90bf3130921e411847c5f295843b8c503ed0d8acda",
+      "public_sha256": "007aa876cf21bf29fcc0912f127d6876668e9778723ece9babcfe54ddae8fc09"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossObservation.h",
+      "source_sha256": "5269c4f51a5eb51140f4755dc5745004e627dba460ccc5a95c4eb8a8da2d4aa5",
+      "public_sha256": "0b900e272265d36a115522c54eadcff285fdd9f7b0d3fb89f073b2270d153a0f"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossPosture.h",
+      "source_sha256": "b6f4f4ca6b4d65ae7c575b5e277eb9235ce46999479a3fc94e8c380abfd8a62e",
+      "public_sha256": "f847466708f20a1940b7fb50b7ebc215972fd55f8b5289602ebcc2a4b08e858a"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossShadow.h",
+      "source_sha256": "fea857c55d4554c4d5613f40f94738f8a9b1c1294fa849fcadb5ea46ca3e961c",
+      "public_sha256": "f8ed41e85c0beba447e8f0e19daceb73ebf5e0fc8c5925b957f4c367bc64ffd4"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossShadowSummon.h",
+      "source_sha256": "69f5a7b1a851eaf4705666a11268d16145c78be396c9a034ccb8d46974ee46ff",
+      "public_sha256": "9d0b360fcd8d8a97563f7515dbeb9546bde40470b91e30d63b07ede0a23aaeb0"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Boss/BossSpacing.h",
+      "source_sha256": "4bf96485863f1d1de3ba5720ca0a007a15218837aa81e9e1c3d4341195fa423f",
+      "public_sha256": "5b349bb41ad2463d51b36faf0088452838e727f9ec159a1f8d4aa5d457eac216"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Combat/Combat.h",
+      "source_sha256": "e5a6b83a9cac8a41d8d2b1fb3d489816e5e26e4ce88479355d68143f0731a044",
+      "public_sha256": "3c5831a6a826d1e9a2c332e4dd301a9cb9594efb8e6b31a405cac46cd56144ac"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Combat/Defense.h",
+      "source_sha256": "025a68f4ba525f131a784a9326448b458cc8560ac45e640015c4999cba87673e",
+      "public_sha256": "b9647819adfc42f1845c932f68a70a5ca3f579bf09267f120aefdf9a3190dfc5"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Combat/EnemyBomb.h",
+      "source_sha256": "0ba1cc69e5b5ca368f4bf5d015ef9eefe5cc904d308acc7385627b406ce4c567",
+      "public_sha256": "96db7085605743a3f291a44fb4cc95c6cc3f87e2b9aa49540dcb283ca442d33a"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Combat/EnemyHitEffect.h",
+      "source_sha256": "6a8ad433261cad949a5f9b8b051a28a22b7e25715a2c67b00beb69e0a28fd8d2",
+      "public_sha256": "584ac41f25d8cdfe4b996f850ebb499f6ece97757a3f2b52877463f5c821406a"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Core/EnemyCharacterBase.h",
+      "source_sha256": "df312eb59914e9e8c790b229dbd85b79cba697dc83ecec08533c87379b9cc83b",
+      "public_sha256": "8c54ab67b4f490465ce09debf9baeb3ab11fd891008bbe17b147e9c30529473b"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Core/EnemyData.h",
+      "source_sha256": "8618d9a8b0d594eb0cfb1840e07317334762e5acd0c86a8b66022221cbe0b49f",
+      "public_sha256": "257343dd22ffc6ed98b389039e7f55f78699309fbeb26c669f4c7ec173935d9a"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Core/EnemyTraversal.h",
+      "source_sha256": "3782831f771358744b4953434746fb04558a3d6742abd8899ec76790979144bb",
+      "public_sha256": "c912b667ddca0c2758b0553dacd50592ff0b672dd2f5750e03e1d3fb3d52cf77"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Minion/MinionCombatDirector.h",
+      "source_sha256": "e91649f9d2866b1e3ceb221ba3246b2c1ec73dce5fb0989df35456fa1514888c",
+      "public_sha256": "3207a2b29d91fc452198669e7968563b141c36fd148b6ac1c4891272fc1a4e5f"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Minion/MinionEnemyCharacter.h",
+      "source_sha256": "375982934e094bc1fe2a9a78481ff6e89c3f1a8de103135abb0faea605a87689",
+      "public_sha256": "b9fea59de1b298066215f38aeede38a824cfcf9fc272bf1f891b6c82b76f56a2"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Minion/MinionFormation.h",
+      "source_sha256": "d4366547e9a4b2360239481bf9d887a30943df687e845fad33d45880337b310c",
+      "public_sha256": "aa7cff53fa0917a8dace0669f3b567a8c7be0131737e4cebeb06c2587d5bfbe9"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Minion/MinionParryResponse.h",
+      "source_sha256": "e03a8c005e87c5b5f2b5d76cccddd58d3173436c5d6b96256534d4823aae8959",
+      "public_sha256": "6cb23b084bfdc95d6c76c880bf71a65309573ee3030e9db8ad7fed8e448f2dec"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Spawning/BossEncounterSpawner.h",
+      "source_sha256": "ff50a753c81170aeedc50e4f0da7875abcacd79bfb812f97ddbd503aec8135d1",
+      "public_sha256": "42a08259d9e99dfd4976b6407f7f0bc621ecd242d31a528aa6d3e46532609dc3"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/Spawning/MinionSpawner.h",
+      "source_sha256": "2a3477318bf97dfc510cfbafef4ce3dfbb829b683130e541def6b7aab00718fe",
+      "public_sha256": "17199ae190ce86eb52ae53d72802e5e4f74a55b2744333cee5eaed2a4d60a688"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/UI/EnemyHealthDisplay.h",
+      "source_sha256": "cd3561bf1330075c9d288b1e8b2a292f57082bd1978b18cf15ba4a6107639622",
+      "public_sha256": "0f43e6fd3682d35e522e58a757b4d95e92e8d25d4f7ac699ee1327d477cb02b3"
+    },
+    {
+      "path": "Source/ECHO/Public/Enemy/UI/EnemyHealthWidget.h",
+      "source_sha256": "f09e6294a67bc5d86f5f65c0eb03b0006c7ab83e06f7e2d0a683139b9ff2c334",
+      "public_sha256": "fa50e4eeee154e6278175d85d262f626f83e5598a319a02b515a736e30b63b35"
+    }
+  ]
+}

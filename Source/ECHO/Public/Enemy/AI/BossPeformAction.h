@@ -15,9 +15,14 @@ public:
 	UBossPeformAction();
 
 public:
+
 	//突進に使う攻撃名。
 	UPROPERTY(EditAnywhere, Category = "Rush", meta = (DisplayName = "Rush Action"))
 	FName m_rushAction;
+
+	//二刀のまま追いかける技。
+	UPROPERTY(EditAnywhere, Category = "Rush")
+	FName m_dualRush;
 
 	//退避に使う行動名。
 	UPROPERTY(EditAnywhere, Category = "Combat", meta = (DisplayName = "Retreat Action"))
@@ -40,7 +45,8 @@ public:
 	float m_startSpeed = 400.f;
 
 	//近接攻撃へつなぐ距離。
-	UPROPERTY(EditAnywhere, Category = "Rush", meta = (ClampMin = "1", DisplayName = "Attack Distance"))
+	UPROPERTY(EditAnywhere, Category = "Rush",
+		meta = (ClampMin = "1", DisplayName = "Attack Distance"))
 	float m_attackDist = 140.f;
 
 	//突進できる高さの差。
@@ -64,6 +70,7 @@ public:
 	float m_rushAngle = 60.f;
 
 protected:
+
 	//BTから呼ばれた行動を開始する。
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& _ownerComp, uint8* _nodeMemory) override;
 
@@ -81,7 +88,7 @@ private:
 	bool TryDash(UBehaviorTreeComponent& _ownerComp);
 
 	//突進で相手に追いつけるか調べる。
-	bool CanCatch(class AEnemyCharacterBase* _enemy, float& _hitEnd, float& _moveStart) const;
+	bool CanCatch(class AEnemyCharacterBase* _enemy, FName _rush, float& _hitEnd, float& _moveStart) const;
 
 	//突進を止めて移動設定を戻す。
 	void StopRush(UBehaviorTreeComponent& _ownerComp);
@@ -89,6 +96,9 @@ private:
 private:
 	//突進の移動中か。
 	bool m_rushing = false;
+
+	//歩いて攻撃の間合いまで離れているか。
+	bool m_retreating = false;
 
 	//突進速度へ切り替えたか。
 	bool m_fast = false;
